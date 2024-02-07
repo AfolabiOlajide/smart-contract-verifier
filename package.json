@@ -1,0 +1,17 @@
+{
+  "name": "smart-contract-verifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "verify": "node index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@thirdweb-dev/chains": "^0.1.70",
+    "@thirdweb-dev/sdk": "^4.0.33",
+    "ethers": "^5"
+  }
+}
