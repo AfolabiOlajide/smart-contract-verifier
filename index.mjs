@@ -2,7 +2,7 @@ import { ThirdwebSDK } from "@thirdweb-dev/sdk";
 import { Ethereum } from "@thirdweb-dev/chains"; // Chain the contract you want to verify is on
 
 const sdk = new ThirdwebSDK(Ethereum, {
-    secretKey: "YOUR_THIRDWEB_SECRET_KEY", // Use secret key if using on the server, get it from dashboard settings
+    secretKey: "YOUR_THIRDWEB_SECRET_KEY", // get your secret key from dashboard settings
 });
 
 const contractAddress = "YOUR_CONTRACT_ADDRESS"; // Address of the contract you want to verify
